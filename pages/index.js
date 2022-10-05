@@ -13,7 +13,7 @@ export default function Home({schedule}) {
       <h1>F1 </h1>
       
       { races.map((race) => (
-        <p  key={race['round']}>{race['round']}  {race['raceName']} {race['time']}</p>
+        <p className='text-sm'  key={race['round']}>{race['round']}  {race['raceName']} {race['time']}</p>
        ))
 
       }
